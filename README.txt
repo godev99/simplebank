@@ -1,1 +1,1 @@
-Based on Golang MasterClass series of TechSchool (https://youtu.be/rx6CPDK_5mU)
+Based on Golang MasterClass series of TechSchool (https://bit.ly/backendmaster)
