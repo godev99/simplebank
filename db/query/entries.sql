@@ -1,7 +1,7 @@
 -- name: CreateEntry :one
 INSERT INTO entries (
     account_id,
-    ammount
+    amount
 ) VALUES (
     $1, $2
 ) RETURNING *;
@@ -18,7 +18,7 @@ OFFSET $2;
 
 -- name: UpdateEntry :one
 UPDATE entries
-SET ammount = $2
+SET amount = $2
 WHERE id = $1
     RETURNING *;
 
