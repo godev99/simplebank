@@ -19,8 +19,8 @@ func TestTransferTx(t *testing.T) {
 	results := make(chan TransferTxResult)
 
 	// run a concurrent transfer transactions
-	n := 100
-	amount := util.RandomInt(0, 1000)
+	n := 10
+	amount := util.RandomInt(0, 10)
 
 	for i := 0; i < n; i++ {
 		go func() {
